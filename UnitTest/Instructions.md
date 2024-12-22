@@ -17,7 +17,10 @@ let thousand = 1_000
 ## Step 2 
 Let's get this in minutes.  Create a variable called minutes and set it to the the seconds divided by 60.  Then create a print statement that prints out the following: 
 #### It would take you 133333333 minutes 
-note that the 133333333 is the value of the mintues variables.  Also note that the test will fail but that is because we are not done yet. 
+Note that the 133333333 is the value of the mintues variables.  
+
+To test your code, click the diamond shown in the image below.  Your test will fail but you will see the print statement. 
+![Click the Diamond to the left of the code](UnitTest.png)
 
 ## Step 3 
 Lets create a variable called hours and set it to the minutes divided by 60.  Create a print statement similar to one we did for the minutes. 
