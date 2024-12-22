@@ -28,10 +28,24 @@ You will want to unzip the folder and then click on the project file to open Xco
 
 <br><br>
 
+## Trust the Project
+This is built for NC3.  It doesn't include any external libraries. It just has a basic Xcode Project in it.  Feel free to look at the code on github before you trust it. 
+
+![Trust to use](docs/Trust.png)
+
+<br><br>
+
 ## Choose the Start file 
 In Xcode, on the left, choose the Start_Here file to begin the lesson. 
 
 ![Choose the start here file](docs/StartHere.png)
+
+<br><br>
+
+## Load the Preview 
+You will need to click on the little reload icon to get the canvas with tips and information on the lesson.  Note this is scrollable by clicking and dragging. 
+
+![Load Preview](docs/PreviewPaused.png)
 
 <br><br>
 
