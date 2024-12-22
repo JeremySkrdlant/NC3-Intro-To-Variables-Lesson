@@ -31,6 +31,9 @@ You will want to unzip the folder and then click on the project file to open Xco
 ## Choose the Start file 
 In Xcode, on the left, choose the Start_Here file to begin the lesson. 
 
+![Choose the start here file](docs/StartHere.png)
+
+<br><br>
 
 ## Enjoy the lesson 
 Happy coding and enjoy learning Swift!! 
