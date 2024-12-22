@@ -2,13 +2,14 @@
 //  StringInterpolationView.swift
 //  VariablesDemo
 //
-//  Created by Jeremy Skrdlant on 12/20/24.
-//
 
 import SwiftUI
 
 struct StringInterpolationView: View {
+	// This variable will force a redraw of the screen when the value is changed.
 	@State var stepNumber = 1
+	
+	// This is a computed value.  The string has different values based on the value of stepNumber.
 	var instruction:String{
 		switch stepNumber {
 		case 1:
@@ -32,11 +33,15 @@ struct StringInterpolationView: View {
 				.bold()
 				.kerning(1.8)
 				.padding(.bottom, 12)
+			
+			// This shows the value of the variable instruction here. Note that when it is red with quotes, it is literally printing what is there but when it is not there, it is printing the value of the variable.
 			Text(instruction)
 			
 			HStack(spacing:0){
 				Text("\"")
 					.foregroundStyle(.red)
+				
+				// We can conditionally put items in our stack. Really Cool!!
 				if stepNumber > 1 {
 					Text("Hello ")
 						.foregroundStyle(.red)
@@ -59,9 +64,11 @@ struct StringInterpolationView: View {
 			}
 			.padding(.vertical, 10)
 			
+			// This puts both our buttons side by side rather than on top of each other.
 			HStack{
 				
 					Button {
+						// We decrease the step but never let it go below 1.
 						stepNumber -= 1
 						if stepNumber < 1{
 							stepNumber = 1
@@ -71,9 +78,11 @@ struct StringInterpolationView: View {
 							.bold()
 					}
 					.buttonStyle(.borderedProminent)
+					// The button is disabled if the stepnumber is 1.
 					.disabled(stepNumber < 2)
 				
 					Button {
+						// We increase the step but never let it go above 4.
 						stepNumber += 1
 						if stepNumber > 4{
 							stepNumber = 4

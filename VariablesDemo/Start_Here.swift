@@ -22,7 +22,7 @@ func LessonPlay(){
 //|    Notes Area      |
 //|--------------------|
 func Notes(){
-	//Copy your old code here for future reference.
+	// Copy your old code here for future reference.
 	
 	
 	

@@ -2,8 +2,7 @@
 //  VariablesDemoTests.swift
 //  VariablesDemoTests
 //
-//  Created by Jeremy Skrdlant on 12/13/24.
-//
+
 
 
 import Testing
@@ -11,6 +10,8 @@ import Testing
 
 struct VariablesDemoTests {
 
+	// Click the diamonds on the left to run the unit test.
+	// Instructions are at the following website (https://jeremyskrdlant.github.io/NC3-Intro-To-Variables-Lesson/)
     @Test func LessonTest() async throws {
 		var years = 0
 		

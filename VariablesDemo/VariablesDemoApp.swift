@@ -16,4 +16,6 @@ struct VariablesDemoApp: App {
     }
 }
 
+
+// Shhhh. Don't tell anyone that this is the answer to the Unit Test Challenge.
 let LESSON_TEST_ANSWER = 253
