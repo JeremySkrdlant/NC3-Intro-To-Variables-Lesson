@@ -4,6 +4,7 @@ We will assume that you can count each number in one second and that you will no
 
 ## Setup 
 Go to the Lesson1Test.swift file in the VariablesDemoTests folder.  
+![Lessons1Test.swif](FileLocation.png)
 
 ## Step 1 
 Createa a constant called seconds and set it equal to 8 billion.  Remember that you can use underscores ( _ ) since the comma seperators do not work.  
