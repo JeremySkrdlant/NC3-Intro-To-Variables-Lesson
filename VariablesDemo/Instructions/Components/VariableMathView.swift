@@ -92,11 +92,7 @@ struct VariableMathView: View {
 			.padding(.top, 10)
 			
 		}.padding()
-			.onAppear{
-				var x = 5
-				x += 5
-				print("\(x)")
-			}
+			
     }
 }
 

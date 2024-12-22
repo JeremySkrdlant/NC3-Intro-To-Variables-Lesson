@@ -2,17 +2,18 @@
 //  Start_Here.swift
 //  VariablesDemo
 //
-
-
 import SwiftUI
 
 //|--------------------|
 //|     Work Area      |
 //|--------------------|
 func LessonPlay(){
-	print("It Works")
+	print("---------------------")
+	print("   Lesson Play Ran")
+	print("---------------------")
 
-	print(6)
+	
+	
 	
 	
 }
@@ -23,11 +24,18 @@ func LessonPlay(){
 func Notes(){
 	//Copy your old code here for future reference.
 	
+	
+	
+	
+	
 }
 
 
 
-// Do not modify this code, It shows you the insructions.
+//|--------------------|
+//|    Right iPhone    |
+//|--------------------|
 #Preview {
+	// Do not modify this code, It shows you the insructions on the right.
 	VariablesInstructions()
 }
