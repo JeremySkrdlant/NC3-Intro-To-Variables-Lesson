@@ -12,11 +12,10 @@ import Testing
 struct VariablesDemoTests {
 
     @Test func LessonTest() async throws {
-        var sum = 0
-		//create a constant called 
+		var years = 0
 		
-		#expect(sum == 3500)
 		
+		#expect(years == LESSON_TEST_ANSWER)
     }
 
 }

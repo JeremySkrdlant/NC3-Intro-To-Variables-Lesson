@@ -15,3 +15,5 @@ struct VariablesDemoApp: App {
         }
     }
 }
+
+let LESSON_TEST_ANSWER = 253

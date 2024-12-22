@@ -32,14 +32,13 @@ struct VariablesInstructions: View {
 				Divider()
 				Text("Scan this with your iPad once the instructor is done")
 					.foregroundStyle(.gray)
-					.padding()
-				ZStack {
-					Color.black
-						.opacity(0.5)
-					Text("QR Code for DoCC lesson done in unit tests")
-						.foregroundStyle(.white)
-						.frame(width:200)
-				}.frame(width: 300, height: 300)
+					.padding(.horizontal)
+				Image(.unitTestSite)
+					.resizable()
+					.aspectRatio(contentMode: .fit)
+					.frame(width:350)
+					.offset(y:-25)
+					
 			}
 			.onAppear{
 				LessonPlay()
